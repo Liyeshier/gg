@@ -1,4 +1,4 @@
-ame: ci
+name: ci
 
 on:
   workflow_dispatch:
@@ -25,4 +25,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: asd769854377/cc
+          tags: docker_asd769854377/cc
